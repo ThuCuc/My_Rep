@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x, y;
+            Console.Write(" Nhap so thu nhat:");    // In chuỗi "Nhập số thứ nhất:" ra màn hình
+            String st = Console.ReadLine();         // Ct nhận nội dung người dùng đánh vào gắn cho biến 
+            x = int.Parse(st);                      // Dùng hàm chuyển đổi nội dung đã nhận sang số 
+            // Có thể rút gọn cách nhập số thứ 2 như sau
+            Console.Write("Nhap so thu hai");
+            y = int.Parse(Console.ReadLine());
+
+            // In kết quả
+            float tong = x + y;
+            Console.WriteLine("Tong cua {0} và {1} là {2}", x, y, tong);
+
+            Console.WriteLine("Tich cua {0} và {1} là {2}", x, y, x * y);
+
+            if (y == 0)
+            {
+                Console.Write("Mau = 0 không chia được");
+            }
+            else
+            {
+                float thuong = (float)x / y;
+                Console.WriteLine("Thương cua {0} chia cho {1} là {2:0.000}", x, y, thuong);
+            }
+            Console.ReadKey();
+        }    
+    }
+}

@@ -1,1 +1,3 @@
-Git la cong cu quan ly code dang phan tan
+Welcome to Version Control with Git
+Author: Linus Torvalds
+License: GNU GPL2

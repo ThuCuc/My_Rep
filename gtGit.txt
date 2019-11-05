@@ -1,5 +1,0 @@
-Welcome to Version Control with Git
-==========================
-Author: Linus Torvalds
-License: GNU GPL2
-Year : 2005
